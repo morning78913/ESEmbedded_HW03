@@ -57,7 +57,7 @@ This is the hw03 sample. Please follow the steps below.
 
 觀察C function要怎麼傳遞呼叫的參數以及回傳值
 
-1.藉由遞增的參數以及不同型態的參數來觀察，我們將修改`main.c`如下:
+* 藉由遞增的參數以及不同型態的參數來觀察，我們將修改`main.c`如下:
 
 ```
 void	arg_N_rtn_N(void);
@@ -125,7 +125,7 @@ int	arg_5_rtn_N(int a, int b, int c, int d, int e)
 }
 ```
 
-此外，可以藉由objdump觀察轉譯至組語的結果
+* 此外，可以藉由objdump觀察轉譯至組語的結果
 
 ```
 Disassembly of section .mytext:
